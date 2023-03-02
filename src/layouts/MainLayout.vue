@@ -12,7 +12,7 @@
           @click="toggleLeftDrawer"
         />
 
-        <q-toolbar-title> JOSEPH CALL </q-toolbar-title>
+        <q-toolbar-title> CHRIS ULLESTAD </q-toolbar-title>
 
         <q-tabs v-model="tab" class="gt-md" indicator-color="accent">
           <q-route-tab
@@ -29,7 +29,7 @@
 
     <q-drawer v-model="leftDrawerOpen" class="lt-md bg-dark">
       <q-list>
-        <q-item-label header> Joseph Call </q-item-label>
+        <q-item-label header> CHRIS ULLESTAD </q-item-label>
 
         <EssentialLink
           v-for="link in essentialLinks"
@@ -42,7 +42,7 @@
     <q-footer class="q-pa-md" style="background: #121212">
       <q-toolbar>
         <q-toolbar-title class="text-grey text-body1">
-          &#169; 2022 Joseph Call
+          &#169; 2022 CHRIS ULLESTAD
         </q-toolbar-title>
       </q-toolbar>
     </q-footer>
@@ -63,12 +63,6 @@ const linksList = [
     icon: "fa-regular fa-user",
     link: "/",
     name: "docs",
-  },
-  {
-    title: "Projects",
-    icon: "fa-regular fa-file-code",
-    link: "/projects",
-    name: "projects",
   },
   {
     title: "About",

@@ -13,7 +13,7 @@
               style="position: absolute; height: 590px; width: 400px"
             ></div>
             <q-img
-              src="images/joseph.jpg"
+              src="images/chris.jpg"
               class="q-mt-lg shadow-6"
               style="height: 590px; width: 330px"
             />
@@ -22,22 +22,24 @@
 
         <div class="col-10 col-md-5 col-lg-4 col-xl-3 text-left">
           <div class="text-h2 text-weight-light q-pb-lg gt-sm">
-            Hi, I'm Joseph.
+            Hi, I'm Chris.
           </div>
           <div class="text-h3 text-center text-weight-light q-pb-lg lt-md">
-            Hi, I'm Joseph.
+            Hi, I'm Chris.
           </div>
 
           <div class="text-h5 text-weight-light text-grey gt-sm q-pb-lg">
-            Full Stack Developer from Virginia, USA. I create web applications
-            with modern frameworks. Welcome to my corner of the internet!
+            Data Scientist from Virginia, USA. I create insightful data-driven
+            solutions with a passion for Business Analytics. Welcome to my
+            corner of the internet!
           </div>
 
           <div
             class="text-h6 text-center text-weight-light text-grey lt-md q-pb-lg"
           >
-            Full Stack Developer from Virginia, USA. I create web applications
-            with modern frameworks. Welcome to my corner of the internet!
+            Data Scientist from Virginia, USA. I create insightful data-driven
+            solutions with a passion for Business Analytics. Welcome to my
+            corner of the internet!
           </div>
 
           <q-btn
@@ -45,9 +47,9 @@
             rounded
             size="18px"
             class="text-weight-regular gt-sm"
-            label="My Projects"
+            label="About Me"
             color="primary"
-            to="/projects"
+            to="/about"
           />
         </div>
 
@@ -58,7 +60,7 @@
               style="position: absolute; height: 590px; width: 400px"
             ></div>
             <q-img
-              src="images/joseph.jpg"
+              src="images/chris.jpg"
               class="q-mt-lg shadow-6"
               style="height: 590px; width: 350px"
             />

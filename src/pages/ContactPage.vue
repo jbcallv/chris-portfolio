@@ -35,12 +35,6 @@
               unelevated
               @click="openURL(linkedinUrl)"
             />
-            <q-btn
-              class="q-pa-none"
-              icon="fa-brands fa-github"
-              unelevated
-              @click="openURL(githubUrl)"
-            />
           </div>
 
           <div
@@ -51,11 +45,6 @@
               icon="fa-brands fa-linkedin"
               unelevated
               @click="openURL(linkedinUrl)"
-            />
-            <q-btn
-              class="q-pa-none"
-              icon="fa-brands fa-github"
-              @click="openURL(githubUrl)"
             />
           </div>
         </div>
@@ -167,26 +156,7 @@ export default {
     const details = ref("");
 
     function sendEmail() {
-      const emailTemplateParameters = createTemplateParameters();
-
-      emailjs
-        .send(
-          import.meta.env.VITE_EMAILJS_SERVICE_ID,
-          import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
-          emailTemplateParameters,
-          import.meta.env.VITE_EMAILJS_PUBLIC_KEY
-        )
-        .then(() => {
-          makeSuccessNotification(
-            "Your message has been sent. I will get back to you as soon as possible"
-          );
-        })
-        .catch((error) => {
-          console.log(error);
-          makeErrorNotification(
-            "Failed to send message. Email me directly at jbcallv@gmail.com"
-          );
-        });
+      makeSuccessNotification("This form doesn't work 🤠");
     }
 
     function createTemplateParameters() {
@@ -213,8 +183,7 @@ export default {
 
     return {
       openURL,
-      linkedinUrl: "https://www.linkedin.com/in/jbcallv",
-      githubUrl: "https://github.com/jbcallv",
+      linkedinUrl: "https://www.linkedin.com/in/christopherullestad/",
 
       firstName,
       lastName,
